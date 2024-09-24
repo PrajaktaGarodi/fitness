@@ -11,6 +11,11 @@
 *	Edit this section
 *
 * ======================================================= */
+
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 body {
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.8;
@@ -39,14 +44,15 @@ p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 20px;
   color: #848484;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #212121;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+  
 }
 
 figure {
@@ -118,7 +124,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -135,7 +141,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -201,7 +207,7 @@ figure {
   box-shadow: none;
   border: transparent;
   min-width: 12em;
-  *width: 12em;
+  width: 12em;
 }
 
 .sf-menu a {
@@ -213,7 +219,7 @@ figure {
   border-top: none;
   text-decoration: none;
   zoom: 1;
-  font-size: 16px;
+  font-size: 20px;
   border-bottom: none !important;
   font-weight: 300;
 }
@@ -259,7 +265,7 @@ figure {
 
 .sf-arrows .sf-with-ul {
   padding-right: 2.5em;
-  *padding-right: 1em;
+  padding-right: 1em;
 }
 
 .sf-arrows .sf-with-ul:after {
@@ -502,12 +508,18 @@ figure {
 .heading-section {
   margin-bottom: 4em;
 }
-.heading-section h2 {
+.heading-section h2{
   font-size: 24px;
   letter-spacing: 1px;
   text-transform: uppercase;
   position: relative;
-  font-weight: 900;
+  /* font-weight: 900; */
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.heading-section p{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .program {
@@ -557,8 +569,9 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
-  font-size: 16px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 600;
 }
 .schedule li a {
   color: rgba(0, 0, 0, 0.5);
@@ -581,7 +594,7 @@ figure {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     margin-bottom: 10px;
     font-size: 18px;
   }
@@ -958,7 +971,7 @@ figure {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     float: left;
     margin-right: 10px;
     margin-top: 8px;
@@ -1206,7 +1219,7 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 30px;
   height: 2px;
   color: #fff;
